@@ -1,0 +1,185 @@
+.searchdiv{
+    width: 90% !important;
+    margin: 40px auto !important;
+}
+
+.typography{
+    font-weight: bolder !important;
+}
+
+.span{
+    color: purple;
+}
+
+.filters{
+    display: flex !important;
+    align-items: center !important;
+    margin: 20px 0px !important;
+}
+
+.f1{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 5px 15px !important;
+    border: 1px solid black !important;
+    width: fit-content !important;
+    font-weight: bold !important;
+    height: 60px !important;
+}
+
+.f1 > p{
+    margin: 0px !important;
+}
+
+.sort{
+    border: none !important;
+    outline: none !important;
+    font-weight: bold !important;
+}
+
+.f2{
+    width: fit-content !important;
+    border: 1px solid black !important;
+    padding: 5px 15px !important;
+    margin-left: 10px !important;
+    height: 60px !important;
+}
+
+.f2 > p{
+    margin: 0px !important;
+}
+
+/*code for the side filters*/
+
+.main{
+    width: 100% !important;
+    display: flex !important;
+    justify-content: space-between !important;
+}
+
+.sidebar{
+    flex: 280px !important;
+    height: fit-content !important;
+    border: 1px solid lightgray !important;
+    cursor: pointer !important;
+    padding: 0px 10px !important;
+}
+
+/*sidebar components*/
+.heading{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    font-weight: bold !important;
+}
+
+.label{
+    font-family: "poppins" !important;
+}
+
+.hidden{
+    display:none;
+    border-bottom: 1px solid lightgray !important;
+}
+
+.courses{
+    flex: 100% !important;
+    margin-left: 20px !important;
+}
+
+.course{
+    display: flex !important;
+}
+
+.cleft{
+    flex: 0.3 !important;
+    width: 300px !important;
+    height: 200px !important;
+    object-fit: cover !important;
+}
+
+.cright{
+    flex: 0.6 !important;
+    margin-left: 10px !important;
+}
+
+.coursename{
+    margin: 5px 0px !important;
+}
+
+.rating{
+    color: gold !important;
+    margin: 5px  0px !important;
+    display: flex !important;
+    align-items: center !important;
+
+}
+
+
+.desc, .descs{
+    font-size: 0.9em !important;
+    margin: 5px 0px !important;
+}
+
+.descs{
+    color: rgb(160, 159, 159) !important;
+}
+
+.crr{
+    flex: 0.01 !important;
+    margin-right: 10px !important;
+}
+
+.crr>h3{
+    margin: 5px 0px !important;
+}
+
+.crr > p{
+    margin: 5px 0px !important;
+    text-decoration: line-through !important;
+}
+
+@media(max-width: 1080px){
+    .main{
+        flex-direction: column !important;
+    }
+
+    .sidebar{
+        position: fixed;
+        top: 0px !important;
+        right: 0px !important;
+        background-color: white !important;
+        z-index: 100 !important;
+        box-shadow: -2px 4px 20px rgba(0, 0, 0, 0.4);
+        width: 280px !important;
+    }
+
+    .icon{
+        display: none !important;
+    }
+
+    .hidden{
+        display: block !important;
+    }
+
+
+    .courses{
+        flex: 1 !important;
+    }
+
+}
+
+@media(max-width: 780px){
+    .course{
+        flex-direction: column !important;
+    }
+
+    .cleft{
+        flex: 1 !important;
+    }
+
+    .cright{
+        flex: 1 !important;
+    }
+}

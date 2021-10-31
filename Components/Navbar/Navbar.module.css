@@ -1,0 +1,204 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    font-family: 'poppins' !important;
+    padding: 15px 0px !important;
+    box-shadow: -2px 4px 20px -4px rgba(0, 0, 0, 0.5) !important;
+    z-index: 1000 !important;
+    position: fixed;
+    top: 0;
+    
+    background-color: #fff !important;
+}
+
+.navbarmobile{
+    display: none !important;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    font-family: 'poppins' !important;
+    padding: 15px 0px !important;
+    box-shadow: -2px 4px 20px -4px rgba(0, 0, 0, 0.5);
+    z-index: 6000 !important;
+    position: fixed;
+    top: 0;
+    background-color: #fff !important;
+}
+
+.dropdown{
+    display: none;
+    position: absolute !important;
+    border: 1px solid grey !important;
+    margin-top: 30px !important;
+    width: 280px !important;
+    background-color: #fff !important;
+    box-shadow: -2px 4px 10px -6px rgba(0, 0, 0, 0.5) !important;
+}
+
+.dropdown > ul{
+  list-style: none !important;
+  margin: 0px !important;
+  padding: 10px 0px !important;
+}
+
+.navitems{
+    padding: 10px 20px !important;
+    width: 90% !important;
+}
+
+.navbarbox{
+    width: fit-content !important;
+    cursor:  pointer !important;
+}
+
+.navbarbox p{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    width: 100% !important;
+}
+
+
+.navitems > a{
+    text-decoration: none !important;
+    color: #2e2d2d !important;
+    font-family:poppins !important;
+}
+
+.navitems > .navbarbox {
+    width: 100% !important;
+}
+
+.dropdowntwo{
+    display: none;
+    position: absolute !important;
+    border: 1px solid grey !important;
+    margin-top: 0px !important;
+    width: 280px !important;
+    background-color: #fff !important;
+    box-shadow: -2px 4px 10px -6px rgba(0, 0, 0, 0.5) !important;
+    margin-left: 280px !important;
+    top: 0px !important;
+}
+
+.dropdowntwo > ul{
+    list-style: none !important;
+    margin: 0px !important;
+    padding: 10px 0px !important;
+  }
+
+
+.navbarmobile>div > .navbar-icon{
+    margin: 0px 10px !important;
+}
+
+.navbarlogo{
+    width: 100px !important;
+    height: auto;
+}
+
+.navbaritem{
+    font-weight: thin !important;
+    color: grey !important;
+    font-family: 'poppins' !important;
+}
+
+.navbarform{
+     display: flex !important;
+     align-items: center !important;
+     padding: 10px !important;
+     border-radius: 50px !important;
+     border: 1px solid grey !important;
+     width: 40% !important;
+     background-color: #f8f9fb !important;
+}
+
+.navbaricon{
+    color: grey !important;
+}
+
+
+.navbarinput{
+    outline: none !important;
+    border: none !important;
+    background: none !important;
+    color: grey !important;
+    font-weight: thin !important;
+    width: 100% !important;
+}
+
+.navbarbuttonwhite{
+    background-color: skyblue !important;
+    color: black !important;
+    font-weight: 600 !important;
+    font-family: 'poppins' !important;
+    border: 2px solid blue !important;
+    border-radius: 0px !important;
+    width: fit-content !important;
+    font-style: normal !important;
+}
+
+.navbarbuttonblack{
+    background-color: green !important;
+    color: white !important;
+    font-weight: 600 !important;
+    font-family: 'poppins' !important;
+    border: 2px solid darkgreen !important;
+    border-radius: 0px !important;
+    width: fit-content !important;
+    height: fit-content !important;
+    font-style: normal !important;
+}
+
+
+.iconweb{
+    width: 25px !important;
+    height: 25px !important;
+    margin: 0px !important;
+}
+
+@media(max-width:1300px){
+    .navbarform{
+        width: 30% !important;
+    }
+}
+
+@media(max-width: 1080px){
+    .udemy{
+        display: none !important;
+    }
+    .dropdown , .dropdowntwo{
+        width: 180px !important;
+    }
+
+    .dropdowntwo{
+        margin-left: 190px !important;
+    }
+
+    .dropdown > ul , .dropdowntwo > ul{
+        padding: 10px 00px !important;
+    }
+
+    .navitems{
+        width: 100% !important;
+        padding: 0px !important;
+    }
+}
+
+@media(max-width: 920px){
+    .teach{
+        display: none !important;
+    }
+}
+
+@media(max-width: 800px){
+    .navbar{
+        display: none !important;
+    }
+
+    .navbarmobile{
+        display: flex !important;
+    }
+}

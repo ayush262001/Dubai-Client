@@ -1,0 +1,85 @@
+.para{
+    font-weight: bold;
+    color: grey;
+    font-size: 1.2em;
+}
+
+.para > h3, .para > p{
+    margin: 5px !important;
+}
+
+.course{
+    width:90%;
+    margin: 0px auto !important;
+    cursor: pointer;
+}
+
+.item{
+    margin: 0px 20px !important;
+    font-family: 'Arial' !important;
+}
+
+.courses{
+    border: 1px solid lightgray !important;
+    padding :50px 10px !important;
+    margin: 20px auto !important;
+}
+
+.itemimage{
+    border: 1px solid lightgrey !important;
+    border-left: 1px solid black !important;
+    width: 100% !important;
+    font-size: 1.1em !important;
+}
+
+.rating{
+    color: rgb(219, 187, 2) !important;
+    display: flex !important;
+    align-items: center !important;
+}
+
+.itemtop{
+    width: 70%;
+    font-family: 'Arial';
+    font-size: 1.1em;
+    margin: 40px 0px !important;
+    margin-left: 20px !important;
+}
+
+.itemtop > p{
+    color: grey !important;
+    line-height: 1.5em !important;
+    font-size: 1.2em !important;
+}
+
+.buttontop{
+    border: 1px solid black !important;
+    color: black !important;
+    background-color: none !important;
+    border-radius: 0 !important;
+    font-weight: bold !important;
+    margin: 20px 0px !important;
+    margin-bottom: 40px !important;
+    padding: 10px !important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+}
+
+@media(max-width:1200px){
+    .itemtop{
+        width: 80% !important;
+        margin: 0px !important;
+    }
+}
+
+@media(max-width:1000px){
+    .itemtop{
+        width: 100% !important;
+        margin: 0px !important;
+    }
+}
+
+@media(max-width: 600px){
+    .itemtop{
+        display: none !important;
+    }
+}

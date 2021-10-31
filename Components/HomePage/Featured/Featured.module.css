@@ -1,0 +1,37 @@
+.featured{
+    background-color: #F7F9FA !important;
+    padding: 40px 0px !important;
+}
+
+.main{
+    width: 90% !important;
+    margin: 0px auto !important;
+}
+
+.itemoptions{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between !important;
+}
+
+.option{
+    width: fit-content !important;
+    font-size: 1.4em !important;
+    margin: 20px !important;
+}
+
+.option>div>a{
+    font-size: 1em !important;
+    color: blue !important;
+    font-weight: bold !important;
+}
+
+.option>div{
+    margin: 40px 10px !important;
+    
+}
+
+.option>div>p{
+    color: grey !important;
+    font-size: 0.8em !important;
+}

@@ -1,0 +1,12 @@
+.above{
+    width: 90%;
+    margin: 40px auto !important;
+    font-family: 'Arial' !important;
+    font-size: 1.1em !important;
+    line-height: 2em !important;
+}
+
+.above > p{
+    color: grey !important;
+    font-size: 1.2em !important;
+}

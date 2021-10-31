@@ -1,0 +1,45 @@
+.sn{
+    background: black !important;
+    width: 60px !important;
+    height: 100vh !important;
+    margin: 0px !important;
+    padding: 10px 0px !important;
+    margin-top: -0px !important;
+    overflow: hidden !important;
+    transition: all 0.4s linear;
+    cursor: pointer !important;
+}
+
+.sn > h3{
+    color: white !important;
+    display: flex !important;
+    align-items: center !important;
+    padding: 20px 10px !important;
+    margin: 0px !important;
+}
+
+.icon{
+    width: 30px !important;
+}
+
+.sn > h3> span{
+    width: 170px !important;
+    margin-left: 20px !important;
+}
+
+.sn>h3:hover{
+    background-color: #80808086 !important;
+}
+
+.sn:hover{
+    width: 280px !important;
+}
+
+
+.main{
+    display: flex !important;
+    
+}
+
+
+
