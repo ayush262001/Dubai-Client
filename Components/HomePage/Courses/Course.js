@@ -120,10 +120,10 @@ function Course() {
                         ),
                         "excel": (
                             <>
-                            <div className="item-top">
-                            <h1 className="top">Expand your career opportunities with Excel</h1>
-                            <p  className="top">Whether you work in machine learning or finance, or are pursuing a career in web development or data science, Python is one of the most important skills you can learn. Python's simple syntax is especially suited for desktop, web, and business applications. Python's design philosophy emphasizes readability and usability. Python was</p>
-                            <Button className="button-top">Explore Python</Button>
+                            <div className={Styles.itemtop}>
+                            <h1 className={Styles.top}>Expand your career opportunities with Excel</h1>
+                            <p  className={Styles.top}>Whether you work in machine learning or finance, or are pursuing a career in web development or data science, Python is one of the most important skills you can learn. Python's simple syntax is especially suited for desktop, web, and business applications. Python's design philosophy emphasizes readability and usability. Python was</p>
+                            <Button className={Styles.buttontop}>Explore Python</Button>
                             </div>
                             <Carousel responsive={responsiveTwo}>
                             <div className={Styles.item}>
