@@ -1,3 +1,31 @@
+.coursediv{
+    width: calc(100% - 70px) !important;
+    margin-left: 70px !important;
+}
+
+.navoptions{
+    width: 200px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-around !important;
+    margin-left: calc(100% - 200px) !important;
+    margin-top: 20px !important;
+}
+
+.notify{
+    color: grey !important;
+}
+
+.option{
+    font-family: 'poppins' !important;
+    font-weight: 400 !important;
+    text-decoration: none !important;
+}
+
+.avatar{
+    background-color: black !important;
+}
+
 .top{
     display: flex;
     align-items: center;
@@ -127,6 +155,10 @@
     min-width: 150px !important;
 }
 
+.hide{
+    display: none !important;
+}
+
 
 @media(max-width: 950px){
     .f{
@@ -163,5 +195,18 @@
     .i{
         width: 280px !important;
         height: auto !important;
+    }
+
+    .navoptions{
+        display: none !important;
+    }
+
+    .hide{
+        display: flex !important;
+    }
+
+    .coursediv{
+        width: 99% !important;
+        margin:0px 0.5% !important;
     }
 }

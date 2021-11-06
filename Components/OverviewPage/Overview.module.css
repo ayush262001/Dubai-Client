@@ -1,0 +1,110 @@
+.navoptions{
+    width: 200px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-around !important;
+    margin-left: calc(100% - 200px) !important;
+    margin-top: 20px !important;
+}
+
+.notify{
+    color: grey !important;
+}
+
+.option{
+    font-family: 'poppins' !important;
+    font-weight: 400 !important;
+    text-decoration: none !important;
+}
+
+.avatar{
+    background-color: black !important;
+}
+
+.overview{
+    width: calc(100% - 70px);
+    margin-left: 70px !important;
+}
+
+.main{
+    display: flex !important;
+    flex-direction: column !important;
+    min-height: 400px !important;
+    width: 98% !important;
+    border: 2px solid lightgrey !important;
+    margin: 40px auto !important;
+    margin-bottom: 0 !important;
+}
+
+.maintop{
+    display: flex !important;
+    align-items: center !important;
+    font-family: 'poppins' !important;
+    border-bottom: 2px solid lightgrey !important;
+}
+
+.point{
+    height: fit-content !important;
+    width: calc(100% / 6) !important;
+}
+
+.sm{
+    font-size:0.8em !important;
+    margin: 5px !important;
+}
+
+.data{
+    font-size: 2em !important;
+    font-weight: thin !important;
+    margin:5px !important;
+    color: #2b2b2b !important;
+}
+
+.mainbottom{
+   display: flex !important;
+   flex-direction: column !important;
+   align-items: center !important;
+   justify-content: center !important;
+   font-family: 'poppins' !important;
+}
+
+.select{
+    display: flex !important;
+    width: 100% !important;
+    align-items: center !important;
+    justify-content: flex-end !important;
+    height: fit-content !important;
+}
+
+.link{
+    text-decoration: none !important;
+}
+
+.bottom{
+    width: 98% !important;
+    margin: 0px auto !important;
+    margin-bottom: 40px !important;
+    border: 2px solid lightgray !important;
+    padding: 20px 0px !important;
+    text-align: center !important;
+}
+
+.selectoption{
+    margin:0px 10px !important;
+}
+
+@media(max-width:750px){
+    .navoptions{
+        display: none !important;
+    }
+
+    .overview{
+        width: 99% !important;
+        margin: 0px 0.5% !important;
+    }
+
+    .point{
+        width: calc(100% / 3) !important;
+    }
+    
+}

@@ -6,13 +6,19 @@ import ThumbUpIcon from '@material-ui/icons/ThumbUpOutlined';
 import BusinessIcon from '@material-ui/icons/BusinessCenterOutlined';
 import InsertChartIcon from '@material-ui/icons/InsertChartOutlined';
 import SentimentSatisfiedIcon from '@material-ui/icons/SentimentSatisfiedOutlined';
+import NotificationIcon from '@material-ui/icons/NotificationImportantOutlined';
+import {Avatar} from '@material-ui/core';
 import NavBar from '../Navbar/Navbar';
 function Course() {
     return (
         <>
         
-        <NavBar />
-        <div>
+        <div className={Styles.coursediv}>
+            <div className={Styles.navoptions}>
+                <a href="" className={Styles.option}>Student</a>
+                <NotificationIcon className={Styles.notify}/>
+                <Avatar src={``} className={Styles.avatar}></Avatar>
+            </div>
             <div className={Styles.top}>
                 <h3 className={Styles.h3}>Jump Into Course Creation</h3>
                 <Button className={Styles.button}>Create Your Course</Button>
@@ -21,7 +27,7 @@ function Course() {
             <div className={Styles.d}>
                 <img src="/course.jpg" className={Styles.i}></img>
                 <div className={Styles.right}>
-                    <h1 className={Styles.h3}>Create an Engagin Course</h1>
+                    <h2 className={Styles.h3}>Create an Engagin Course</h2>
                     <p className={Styles.para}>Whether you've been teaching for years or are teaching for the first time, you can make an engaging course. We've compiled resources and best practices to help you get to the next level, no matter where you're starting.</p>
                     <a href="" className={Styles.started}>Get Started</a>
                 </div>
@@ -31,7 +37,7 @@ function Course() {
                 <div className={Styles.dd}>
                     <img src="/course.jpg" className={Styles.i}></img>
                     <div className={Styles.right}>
-                        <h1 className={Styles.h3}>Get Started with Video</h1>
+                        <h2 className={Styles.h3}>Get Started with Video</h2>
                         <p className={Styles.para}>Quality video lectures can set your course apart. Use our resources to learn the basics.</p>
                         <a href="" className={Styles.started}>Get Started</a>
                     </div>
@@ -40,7 +46,7 @@ function Course() {
                 <div className={Styles.dd}>
                     <img src="/course.jpg" className={Styles.i}></img>
                     <div className={Styles.right}>
-                        <h1 className={Styles.h3}>Build Your Audience</h1>
+                        <h2 className={Styles.h3}>Build Your Audience</h2>
                         <p className={Styles.para}>Quality video lectures can set your course apart. Use our resources to learn the basics.</p>
                         <a href="" className={Styles.started}>Get Started</a>
                     </div>
@@ -49,7 +55,7 @@ function Course() {
             <div className={Styles.d}>
                 <img src="/course.jpg" className={Styles.i}></img>
                 <div className={Styles.right}>
-                    <h1 className={Styles.h3}>Create an Engagin Course</h1>
+                    <h2 className={Styles.h3}>Create an Engagin Course</h2>
                     <p className={Styles.para}>Whether you've been teaching for years or are teaching for the first time, you can make an engaging course. We've compiled resources and best practices to help you get to the next level, no matter where you're starting.</p>
                     <a href="" className={Styles.started}>Get Started</a>
                 </div>
